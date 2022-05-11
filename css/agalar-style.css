@@ -1,0 +1,159 @@
+a{
+    text-decoration: none;
+    color:#fff ;
+}
+.main{
+    width: 70%;
+    height: 115%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.cont{
+    width: 700px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around ;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cont1{
+    width: 700px;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-bottom: 10px;
+  }
+.bordera{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: all 0.3s;
+  position: relative;
+}
+.bordera:hover{
+    border: 1px solid white;
+    background-color: rgba(196, 20, 20, 0.8);
+
+}
+.card{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 h2, .card1 h2, .card2 h2, .card3 h2{
+    opacity:1;
+}
+.card0{
+  background: url('../assets/img/yasin-bozkurt.jpeg') center center no-repeat;
+  background-size: 300px;
+}
+.card0:hover{
+    background: url('../assets/img/yasin-bozkurt.jpeg') center center no-repeat;
+    background-size: 600px;
+}
+.card1{
+  background: url('../assets/img/mert-ural.jpeg') center center no-repeat;
+  background-size: 350px;
+}
+.card1:hover{
+    background: url('../assets/img/mert-ural.jpeg') center center no-repeat;
+    background-size: 600px;
+}
+.card2{
+  background: url('../assets/img/yunus-emre-bulut.jpg') center center no-repeat;
+  background-size: 300px;
+}
+.card2:hover{
+    background: url('../assets/img/yunus-emre-bulut.jpg') center center no-repeat;
+    background-size: 600px;
+}
+.card3{
+    background: url('../assets/img/bulent-bulentoglu.jpeg') center center no-repeat;
+    background-size: 300px;
+}
+.card3:hover{
+    background: url('../assets/img/bulent-bulentoglu.jpeg') center center no-repeat;
+    background-size: 600px;
+}
+h2{
+  color: white;
+  margin: 20px;
+  font-size: 32px;
+  opacity: 0;
+  transition: opacity 1s;
+  text-shadow:  0px 0px 15px #FFFFFF;
+}
+.icons{
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  transition-duration: 0.5s;
+
+}
+.facebook-button{
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.facebook-button:hover{
+  background-color: #3B5998;
+  color: #fff;
+  text-shadow: 0px 0px 15px #FFFFFF;
+  transform: scale(1.5);
+  border-radius: 5px;
+}
+.instagram-button{
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.instagram-button:hover{
+  background: linear-gradient(90deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+  color: #fff;
+  transform: scale(1.5);
+  border-radius: 5px;
+}
+.twitter-button{
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.twitter-button:hover{
+  background-color: #55ACEE;
+  color: #fff;
+  text-shadow: 0px 0px 15px #FFFFFF;
+  transform: scale(1.5);
+  border-radius: 5px;
+}
+
+
