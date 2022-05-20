@@ -1,3 +1,9 @@
+*:root{
+    --facebook:#3B5998;
+    --twitter:#55ACEE;
+    --instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    --youtube: #FF0000;
+}
 .head-div{
     display: flex;
     background-image: url('../assets/img/alapli.jpg');
@@ -34,6 +40,42 @@
     margin-left: 25px;
     border-radius: 5px;
 }
+
 .border-right{
     border-right: 1px solid rgb(196, 20, 20);
 }
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: var(--bs-primary);
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    transition-duration: 0.5s;
+  }
+  .social-icons .social-icon:nth-child(1):hover {
+    color: var(--youtube);
+  }
+  .social-icons .social-icon:nth-child(2):hover {
+    color: #fff;
+    background: var(--instagram);
+  }
+  .social-icons .social-icon:nth-child(3):hover {
+    color: var(--twitter);
+  }
+  .social-icons .social-icon:nth-child(4):hover {
+    color: var(--facebook);
+    background: #fff;
+  }
+  .social-icons .social-icon:last-child {
+    margin-right: 0;
+  }
+  .social-icons .social-icon:hover {
+    color: var(--facebook);
+    background-color: #fff;
+    transform: scale(1.5);
+  }

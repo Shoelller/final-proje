@@ -66,6 +66,7 @@
   --twitter : #55ACEE;
   --github: #3f3c3c;
   --linkedin:#0A66C2;
+  --instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 *,
@@ -626,6 +627,12 @@ progress {
   justify-content: center;
   align-items: center;
   margin-top: -50px;
+  transition-duration: 0.5s;
+  border-radius: 50%;
+}
+.img-fluid:hover{
+  transform: scale(1.1);
+  border-radius: 10px;
 }
 
 .img-thumbnail {
@@ -11437,6 +11444,10 @@ p.lead {
   margin-right: 1.5rem;
   transition-duration: 0.5s;
 }
+.social-icons .social-icon:hover{
+  background-color: #FFFFFF;
+  transform: scale(1.5);
+}
 .social-icons .social-icon:nth-child(1):hover {
   color: var(--linkedin);
 }
@@ -11446,13 +11457,15 @@ p.lead {
 .social-icons .social-icon:nth-child(3):hover {
   color: var(--twitter);
 }
+.social-icons .social-icon:nth-child(4):hover {
+  color: var(--bs-white);
+  background: var(--instagram);
+}
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icons .social-icon:nth-child(5):hover {
   color: var(--facebook);
-  background-color: #fff;
-  transform: scale(1.5);
 }
 
 .dev-icons {
@@ -11494,4 +11507,118 @@ div.resume-section .resume-section-content {
 .logo{
   width: 225px;
   height: 225px;
+  transition-duration: 0.5s;
 }
+.logo:hover{
+  transform: scale(1.3);
+}
+.progress-group{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  flex-direction: column;
+}
+.progress-group .progress-text{
+  text-align: right;
+  margin-right: 10px;
+}
+.progress {
+  background: rgba(160,25,25,0.2);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 30px;
+  width: 500px;
+}
+
+.progress-value-1 {
+  animation: load1 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load1 {
+  0% { width: 0; }
+  100% { width: 73%; }
+}
+
+.progress-value-2 {
+  animation: load2 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load2 {
+  0% { width: 0; }
+  100% { width: 77%; }
+}
+
+.progress-value-3 {
+  animation: load3 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load3 {
+  0% { width: 0; }
+  100% { width: 62%; }
+}
+
+.progress-value-4 {
+  animation: load4 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load4 {
+  0% { width: 0; }
+  100% { width: 54%; }
+}
+
+.progress-value-5 {
+  animation: load5 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load5 {
+  0% { width: 0; }
+  100% { width: 34%; }
+}
+
+.progress-value-6 {
+  animation: load6 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #c41414;
+  height: 20px;
+  width: 0;
+}
+
+@keyframes load6 {
+  0% { width: 0; }
+  100% { width: 32%; }
+}
+
+
+
