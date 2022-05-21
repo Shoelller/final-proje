@@ -40,8 +40,6 @@ a{
 }
 .bordera:hover{
     border: 1px solid white;
-    background-color: rgba(196, 20, 20, 0.8);
-
 }
 .card{
   height: 379px;
